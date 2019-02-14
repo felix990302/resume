@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.2.1)  13 FEB 2019 17:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.2.1)  14 FEB 2019 17:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1125,7 +1125,7 @@ File: english.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
 \@quotelevel=\count311
 \@quotereset=\count312
 
-No file zhoufelix.aux.
+(./zhoufelix.aux)
 \openout1 = `zhoufelix.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
@@ -1142,6 +1142,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
 LaTeX Font Info:    ... okay on input line 68.
 LaTeX Font Info:    Try loading font information for T1+lato-TLF on input line 
 68.
+
 (/usr/local/texlive/2018/texmf-dist/tex/latex/lato/T1lato-TLF.fd
 File: T1lato-TLF.fd 2017/10/22 Font definitions for T1/lato-TLF.
 )
@@ -1299,21 +1300,13 @@ LaTeX Font Warning: Font shape `OMS/lato-TLF/m/n' undefined
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                zhoufelix
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'zhoufelix.run.xml'.
 \openout1 = `zhoufelix.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24849 strings out of 492616
- 503836 string characters out of 6128968
+ 24851 strings out of 492616
+ 503864 string characters out of 6128968
  943473 words of memory out of 5000000
  28352 multiletter control sequences out of 15000+600000
  317618 words of font info for 47 fonts, out of 8000000 for 9000
