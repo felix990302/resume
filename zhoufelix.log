@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.2.1)  14 FEB 2019 17:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.2.1)  21 FEB 2019 16:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1275,19 +1275,31 @@ LaTeX Font Info:    Font shape `T1/lato-TLF/bx/n' in size <17.28> not available
 
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
 (Font)              scaled to size 17.28pt on input line 1.
-LaTeX Font Info:    Font shape `T1/lato-TLF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 2.
-LaTeX Font Info:    Font shape `T1/lato-TLF/m/it' will be
-(Font)              scaled to size 12.0pt on input line 2.
+LaTeX Font Info:    Font shape `T1/lato-TLF/bx/n' in size <10> not available
+(Font)              Font shape `T1/lato-TLF/b/n' tried instead on input line 3.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/fontawesome/ufontawesomethree.fd)
+LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
+(Font)              scaled to size 10.0pt on input line 3.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 47.
+(Font)              scaled to size 9.0pt on input line 43.
+
+Underfull \hbox (badness 4013) in paragraph at lines 51--54
+[][] 
+ []
+
 )
+Underfull \hbox (badness 10000) in paragraph at lines 57--93
+[][] 
+ []
+
+
+Underfull \hbox (badness 3525) in paragraph at lines 57--93
+[] 
+ []
+
 LaTeX Font Info:    Try loading font information for OMS+lato-TLF on input line
  97.
 LaTeX Font Info:    No file OMSlato-TLF.fd. on input line 97.
-
 
 LaTeX Font Warning: Font shape `OMS/lato-TLF/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
@@ -1305,27 +1317,25 @@ Package logreq Info: Writing requests to 'zhoufelix.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24851 strings out of 492616
- 503864 string characters out of 6128968
- 943473 words of memory out of 5000000
- 28352 multiletter control sequences out of 15000+600000
- 317618 words of font info for 47 fonts, out of 8000000 for 9000
+ 24828 strings out of 492616
+ 503277 string characters out of 6128968
+ 944473 words of memory out of 5000000
+ 28336 multiletter control sequences out of 15000+600000
+ 249444 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,12n,91p,1134b,791s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,9n,91p,1134b,791s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lato/a_w6akef.enc}{/usr/l
-ocal/texlive/2018/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomethree.enc}{
-/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.e
-nc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeo
-ne.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/fontawesome/FontA
-wesome.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/typoland/lato/Lato-B
-old.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/typoland/lato/Lato-Ital
-ic.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/typoland/lato/Lato-Regul
-ar.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9
-.pfb>
-Output written on zhoufelix.pdf (1 page, 146556 bytes).
+ocal/texlive/2018/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}{/u
+sr/local/texlive/2018/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc
+}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/fontawesome/FontAwesome
+.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/typoland/lato/Lato-Bold.pf
+b></usr/local/texlive/2018/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pf
+b></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
+
+Output written on zhoufelix.pdf (1 page, 113105 bytes).
 PDF statistics:
- 39 PDF objects out of 1000 (max. 8388607)
- 30 compressed objects within 1 object stream
+ 32 PDF objects out of 1000 (max. 8388607)
+ 24 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
