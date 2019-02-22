@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.2.1)  21 FEB 2019 16:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.2.1)  21 FEB 2019 23:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1281,19 +1281,19 @@ LaTeX Font Info:    Font shape `T1/lato-TLF/bx/n' in size <10> not available
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
 (Font)              scaled to size 10.0pt on input line 3.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 43.
+(Font)              scaled to size 9.0pt on input line 44.
 
-Underfull \hbox (badness 4013) in paragraph at lines 51--54
+Underfull \hbox (badness 4013) in paragraph at lines 56--59
 [][] 
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 57--93
+Underfull \hbox (badness 10000) in paragraph at lines 62--93
 [][] 
  []
 
 
-Underfull \hbox (badness 3525) in paragraph at lines 57--93
+Underfull \hbox (badness 3525) in paragraph at lines 62--93
 [] 
  []
 
@@ -1319,7 +1319,7 @@ Package logreq Info: Writing requests to 'zhoufelix.run.xml'.
 Here is how much of TeX's memory you used:
  24828 strings out of 492616
  503277 string characters out of 6128968
- 944473 words of memory out of 5000000
+ 947473 words of memory out of 5000000
  28336 multiletter control sequences out of 15000+600000
  249444 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1332,7 +1332,7 @@ sr/local/texlive/2018/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc
 b></usr/local/texlive/2018/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pf
 b></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
 
-Output written on zhoufelix.pdf (1 page, 113105 bytes).
+Output written on zhoufelix.pdf (1 page, 118347 bytes).
 PDF statistics:
  32 PDF objects out of 1000 (max. 8388607)
  24 compressed objects within 1 object stream
