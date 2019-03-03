@@ -1,17 +1,3 @@
-%%%%%%%%%%%%%%%%%
-% This is an example CV created using altacv.cls (v1.1.5, 1 December 2018) written by
-% LianTze Lim (liantze@gmail.com), based on the
-% Cv created by BusinessInsider at http://www.businessinsider.my/a-sample-resume-for-marissa-mayer-2016-7/?r=US&IR=T
-%
-%% It may be distributed and/or modified under the
-%% conditions of the LaTeX Project Public License, either version 1.3
-%% of this license or (at your option) any later version.
-%% The latest version of this license is in
-%%    http://www.latex-project.org/lppl.txt
-%% and version 1.3 or later is part of all distributions of LaTeX
-%% version 2003/12/01 or later.
-%%%%%%%%%%%%%%%%
-
 %% If you are using \orcid or academicons
 %% icons, make sure you have the academicons
 %% option here, and compile with XeLaTeX
@@ -69,7 +55,6 @@
 \name{Felix Zhou}
 \tagline{Engineer \& Mathemagician}{working with tranformation, analysis, and storage of structured and unstructured data}
 \personalinfo{%
-  % Not all of these are required!
   % You can add your own with \printinfo{symbol}{detail}
     \email{felix990302@yahoo.ca}
     \phone{226-898-5226}
@@ -86,33 +71,24 @@
 %% Depending on your tastes, you may want to make fonts of itemize environments slightly smaller
 \AtBeginEnvironment{itemize}{\small}
 
-%% Provide the file name containing the sidebar contents as an optional parameter to \cvsection.
-%% You can always just use \marginpar{...} if you do
-%% not need to align the top of the contents to any
-%% \cvsection title in the "main" bar.
+
 \cvsection[page1sidebar]{Experience}
 
 \cvevent{Software Engineering Intern}{Encircle Inc.}{April 2018 -- August 2018}{Kitchener, ON}
 \begin{itemize}
-    \item Full-Stack web development with \textbf{Python}, \textbf{Tornado}, \textbf{TypeScript}, and \textbf{React}
-    \item Implemented email feature to send reports through \textbf{Model-Daemon Method}
-    \item Improved user experience with \textbf{lazy loading} and \textbf{functional input state}
+    \item Developed features in \textbf{Tornado} and \textbf{React} to improve Encircle's web app
+    \item Introduced \textbf{WebSockets} and \textbf{Observables} to load and update data asynchonously in real-time, improving efficiency by \textbf{5x}
+    \item Implemented email feature to send reports through \textbf{Model-Daemon Method}, removing need to exit app in user workflow
+    \item Improved user experience with \textbf{functional} React Components, reducing re-rendering for smoother user experience 
 \end{itemize}
 
 \cvsection{Projects}
 
-%% If the NEXT page doesn't start with a \cvsection but you'd
-%% still like to add a sidebar, then use this command on THIS
-%% page to add it. The optional argument lets you pull up the
-%% sidebar a bit so that it looks aligned with the top of the
-%% main column.
-% \addnextpagesidebar[-1ex]{page3sidebar}
-
 \cvevent{VM}{CS246E: Objected Oriented Programming (Advanced)}{November 2018}{}
 \begin{itemize}
-    \item Designed and actualized a C++14 clone of the command-line text editor
+    \item Designed and actualized a \textbf{C++14} clone of the command-line text editor
     \item Followed \textbf{Object-Oriented Principles} and \textbf{Design Patterns} like \textbf{Decorator} and \textbf{Visitor} to produce modular and extensible code
-    \item Implemented undos and redos through the \textbf{Command} design pattern
+    \item Implemented undos and redos through the \textbf{Command} pattern to minimize space complexity
 \end{itemize}
 
 \divider
@@ -122,7 +98,7 @@
     \item Created an \textbf{Online Learning} application which recognizes geese
     \item Designed a \textbf{PostgreSQL} database with \textbf{ORM} to improve extensibility
     \item Leveraged \textbf{Decision Trees} and \textbf{Boosting} for classification with 90\% accuracy
-    \item Deployed through \textbf{Heroku} with \textbf{PgBouncer} and \textbf{NGINX} as load balancers
+    \item Deployed several \textbf{Heroku} instances with \textbf{PgBouncer} and \textbf{NGINX} for load balancing and increased transaction throughput
 \end{itemize}
 \textit{Inspired by Silicon Valley Season 4 Episode 4}
 
@@ -131,9 +107,9 @@
 \cvevent{NNLib}{}{April 2018 -- September 2018}{}
 \begin{itemize}
     \item Created a light-weight Neural Network library using \textbf{numpy}
-    \item Included \textbf{L1, L2 Regularization} and \textbf{Dropout} to reduce variance
+    \item Included \textbf{L1, L2 Regularization} and \textbf{Dropout} to combat variance
     \item Implemented \textbf{back-substitution} and \textbf{gradient descent} through Chain Rule
-    \item Abided by \textbf{PyPI} package structure and conventions including full \textbf{pytest} suite
+    \item Abided by \textbf{PyPI} package structure and conventions including full \textbf{pytest} suite to improve compatibility with other Python packages
 \end{itemize}
 
 \divider
@@ -141,7 +117,7 @@
 \cvevent{Faustin}{YHacks}{December 2017}{}
 \begin{itemize}
    \item Provided real-time suggestions in reaction to the emotion in speech
-   \item Trained a \textbf{Deep Neural Network} in combination with \textbf{IBM Watson} and \textbf{Volkaturi API}
+   \item Combined a \textbf{Deep Neural Network}, \textbf{IBM Watson} and \textbf{Volkaturi API} to analyze tonality and semantics to detect outliers due to factors such as sarcasm
    \item Classified speech in one of five emotional classes with 80\% Accuracy
    \item Launched the application via \textbf{AWS} on a \textbf{CentOS} server
 \end{itemize}

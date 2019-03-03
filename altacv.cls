@@ -114,6 +114,7 @@
 \RequirePackage{dashrule}
 \RequirePackage{multirow,tabularx}
 \RequirePackage{changepage}
+\RequirePackage{fix-cm}
 % \RequirePackage{marginfix}
 
 \setlength{\parindent}{0pt}
@@ -154,7 +155,7 @@
   \begingroup
     \ifdef{\@photodiameter}{\begin{minipage}{\dimexpr\linewidth-\@photodiameter-2em}}{}%
     \raggedright\color{emphasis}%
-    {\Huge\bfseries\MakeUppercase{\@name}\par}
+    {\fontsize{40}{70}\bfseries\MakeUppercase{\@name}\par}
     \medskip
     {\normalsize\bfseries\color{accent}\@tagline\hphantom{l}}{\normalsize\bfseries\color{body}\@purpose\par}
     \bigskip
