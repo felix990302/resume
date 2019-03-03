@@ -7,11 +7,13 @@
 %% Use the "normalphoto" option if you want a normal photo instead of cropped to a circle
 % \documentclass[10pt,a4paper,normalphoto]{altacv}
 
-\documentclass[10pt,a4paper,ragged2e]{altacv}
+\documentclass[10.5pt,a4paper,ragged2e]{altacv}
 
 %% AltaCV uses the fontawesome and academicon fonts
 %% and packages.
 %% See texdoc.net/pkg/fontawecome and http://texdoc.net/pkg/academicons for full list of symbols. You MUST compile with XeLaTeX or LuaLaTeX if you want to use academicons.
+
+\usepackage{hyperref}
 
 % Change the page layout if you need to
 \geometry{left=1cm,right=9cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1.25cm,bottom=1.25cm}
@@ -31,7 +33,7 @@
 % Change the colours if you want to
 \definecolor{VividPurple}{HTML}{3E0097}
 \definecolor{SlateGrey}{HTML}{2E2E2E}
-\definecolor{LightGrey}{HTML}{444444}
+\definecolor{LightGrey}{HTML}{111111}
 
 \definecolor{LightBlue}{HTML}{0070FF}
 \definecolor{DarkBlue}{HTML}{333399}
@@ -53,14 +55,14 @@
 
 \begin{document}
 \name{Felix Zhou}
-\tagline{Engineer \& Mathemagician}{working with tranformation, analysis, and storage of structured and unstructured data}
+\tagline{Mathemagician \& Engineer}{working with tranformation, analysis, and storage of structured and unstructured data}
 \personalinfo{%
   % You can add your own with \printinfo{symbol}{detail}
     \email{felix990302@yahoo.ca}
     \phone{226-898-5226}
-    \homepage{zhou-felix.me}
-    \linkedin{linkedin.com/in/felix990302}
-    \github{github.com/felix990302}
+    \homepage{\href{http://zhou-felix.me}{zhou-felix.me}}
+    \linkedin{\href{https://www.linkedin.com/in/felix-zhou}{felix990302}}
+    \github{\href{https://www.github.com/felix990302}{felix990302}}
 }
 
 %% Make the header extend all the way to the right, if you want.
@@ -84,7 +86,7 @@
 
 \cvsection{Projects}
 
-\cvevent{VM}{CS246E: Objected Oriented Programming (Advanced)}{November 2018}{}
+\cvevent{VM}{CS246E: Objected Oriented Programming (Advanced)}{November 2018}{\href{https://github.com/felix990302/vm}{github.com/felix990302/vm}}
 \begin{itemize}
     \item Designed and actualized a \textbf{C++14} clone of the command-line text editor
     \item Followed \textbf{Object-Oriented Principles} and \textbf{Design Patterns} like \textbf{Decorator} and \textbf{Visitor} to produce modular and extensible code
@@ -93,33 +95,33 @@
 
 \divider
 
-\cvevent{Goose or Not}{Hack the North}{September 2018}{}
+\cvevent{Goose or Not}{Hack the North}{September 2018}{\href{https://github.com/felix990302/GooseOrNot}{github.com/felix990302/GooseOrNot}}
 \begin{itemize}
-    \item Created an \textbf{Online Learning} application which recognizes geese
+    \item Created an \textbf{Online Learning} application which recognizes geese with \textbf{Flask} and \textbf{TypeScript-React}
     \item Designed a \textbf{PostgreSQL} database with \textbf{ORM} to improve extensibility
-    \item Leveraged \textbf{Decision Trees} and \textbf{Boosting} for classification with 90\% accuracy
+    \item Combined \textbf{NNLIB} and \textbf{XGBoost} for classification with \textbf{90\% accuracy}
     \item Deployed several \textbf{Heroku} instances with \textbf{PgBouncer} and \textbf{NGINX} for load balancing and increased transaction throughput
 \end{itemize}
 \textit{Inspired by Silicon Valley Season 4 Episode 4}
 
 \divider
 
-\cvevent{NNLib}{}{April 2018 -- September 2018}{}
+\cvevent{NNLib}{}{April 2018 -- September 2018}{\href{https://github.com/felix990302/nnlib}{github.com/felix990302/nnlib}}
 \begin{itemize}
-    \item Created a light-weight Neural Network library using \textbf{numpy}
-    \item Included \textbf{L1, L2 Regularization} and \textbf{Dropout} to combat variance
+    \item Created a light-weight Neural Network library with only \textbf{numpy} as dependency
+    \item Featured \textbf{L1, L2 Regularization} and \textbf{Dropout} to combat variance
     \item Implemented \textbf{back-substitution} and \textbf{gradient descent} through Chain Rule
     \item Abided by \textbf{PyPI} package structure and conventions including full \textbf{pytest} suite to improve compatibility with other Python packages
 \end{itemize}
 
 \divider
 
-\cvevent{Faustin}{YHacks}{December 2017}{}
+\cvevent{Faustin}{YHacks}{December 2017}{\href{https://github.com/tangsaidi/YHack}{github.com.tagsaidi/YHack}}
 \begin{itemize}
-   \item Provided real-time suggestions in reaction to the emotion in speech
-   \item Combined a \textbf{Deep Neural Network}, \textbf{IBM Watson} and \textbf{Volkaturi API} to analyze tonality and semantics to detect outliers due to factors such as sarcasm
-   \item Classified speech in one of five emotional classes with 80\% Accuracy
-   \item Launched the application via \textbf{AWS} on a \textbf{CentOS} server
+    \item Provided real-time suggestions in reaction to the emotion in speech
+    \item Combined a \textbf{Deep Neural Network}, \textbf{IBM Watson} and \textbf{Volkaturi API} to analyze tonality and semantics to detect outliers due to factors such as sarcasm
+    \item Classified speech in one of five emotional classes with \textbf{80\% Accuracy}
+    \item Launched the application via \textbf{AWS} on a \textbf{CentOS} server
 \end{itemize}
 
 

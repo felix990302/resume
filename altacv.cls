@@ -157,7 +157,7 @@
     \raggedright\color{emphasis}%
     {\fontsize{40}{70}\bfseries\MakeUppercase{\@name}\par}
     \medskip
-    {\normalsize\bfseries\color{accent}\@tagline\hphantom{l}}{\normalsize\bfseries\color{body}\@purpose\par}
+    {\large\bfseries\color{accent}\@tagline\hphantom{l}}{\normalsize\bfseries\color{body}\@purpose\par}
     \bigskip
     {\footnotesize\bfseries\@personalinfo\par}
     \ifdef{\@photodiameter}{%
@@ -177,7 +177,7 @@
 \newcommand{\cvsection}[2][]{%
   \bigskip%
   \ifstrequal{#1}{}{}{\marginpar{\vspace*{\dimexpr1pt-\baselineskip}\raggedright\input{#1}}}%
-  {\color{heading}\LARGE\bfseries\MakeUppercase{#2}}\\[-1ex]%
+  {\color{heading}\Large\bfseries\MakeUppercase{#2}}\\[-1ex]%
   {\color{heading}\rule{\linewidth}{2pt}\par}\medskip
 }
 
@@ -188,7 +188,7 @@
 
 % v1.1.4: fixes inconsistent font size
 \newcommand{\cvevent}[4]{%
-  {\large\color{emphasis}#1\par}
+  {\color{emphasis}#1\par}
   \smallskip\normalsize
   \ifstrequal{#2}{}{}{
   \textbf{\color{accent}#2}\par
