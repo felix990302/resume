@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.2.1)  4 MAR 2019 00:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.2.1)  4 MAR 2019 09:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1472,24 +1472,26 @@ LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
 (Font)              scaled to size 14.4pt on input line 1.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
 (Font)              scaled to size 9.0pt on input line 29.
-)
 LaTeX Font Info:    Try loading font information for OMS+lato-TLF on input line
- 81.
-LaTeX Font Info:    No file OMSlato-TLF.fd. on input line 81.
+ 31.
+LaTeX Font Info:    No file OMSlato-TLF.fd. on input line 31.
 
 
 LaTeX Font Warning: Font shape `OMS/lato-TLF/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 81.
+(Font)              for symbol `textbullet' on input line 31.
 
+)
 LaTeX Font Info:    Font shape `T1/lato-TLF/bx/n' in size <9> not available
 (Font)              Font shape `T1/lato-TLF/b/n' tried instead on input line 81
 .
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
 (Font)              scaled to size 9.0pt on input line 81.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/it' will be
+(Font)              scaled to size 9.0pt on input line 91.
+LaTeX Font Info:    Font shape `T1/lato-TLF/m/it' will be
 (Font)              scaled to size 10.0pt on input line 105.
-[1
+ [1
 
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 128.
@@ -1509,11 +1511,11 @@ Package logreq Info: Writing requests to 'zhoufelix.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28607 strings out of 492616
- 563875 string characters out of 6128968
- 1019350 words of memory out of 5000000
- 32073 multiletter control sequences out of 15000+600000
- 272029 words of font info for 40 fonts, out of 8000000 for 9000
+ 28609 strings out of 492616
+ 563917 string characters out of 6128968
+ 1019352 words of memory out of 5000000
+ 32074 multiletter control sequences out of 15000+600000
+ 294907 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,5n,91p,1154b,791s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lato/a_w6akef.enc}{/usr/l
@@ -1524,7 +1526,7 @@ sr/local/texlive/2018/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc
 b></usr/local/texlive/2018/texmf-dist/fonts/type1/typoland/lato/Lato-Italic.pfb
 ></usr/local/texlive/2018/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb
 ></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on zhoufelix.pdf (1 page, 149281 bytes).
+Output written on zhoufelix.pdf (1 page, 143234 bytes).
 PDF statistics:
  48 PDF objects out of 1000 (max. 8388607)
  39 compressed objects within 1 object stream
