@@ -76,6 +76,11 @@
 
 \cvsection[page1sidebar]{Experience}
 
+\cvevent{IOT Developer Intern}{California Things}{May 2019 -- Present}{Redwood City, CA}
+\begin{itemize}
+    \item refactored deployments scripts and testing environment for Ubuntu 18.04
+\end{itemize}
+
 \cvevent{Software Engineering Intern}{Encircle Inc.}{April 2018 -- August 2018}{Kitchener, ON}
 \begin{itemize}
     \item Developed features in \textbf{Tornado} and \textbf{React} to improve Encircle's web app
@@ -85,6 +90,17 @@
 \end{itemize}
 
 \cvsection{Projects}
+
+\cvevent{Pleter}{}{May 2019}{\href{https://github.com/felix990302/word\_completion}{github.com/felix990302/word\_completion}}
+\begin{itemize}
+    \item Designed a thread safe autocompletion engine with a dynamic dictionary
+    \item Implemented using a variation of \textbf{range trees} consisting of a \textbf{compressed trie} and sorted arrays in \textbf{C++}
+    \item accounted for race conditions and deadlocks using read and write lock hierarchies
+    \item Provided a complete Python interface using \textbf{pybind11}
+    \item Incorporated \textbf{gprof} as profiler for optimizations including a static \textbf{fixed-size allocator} to achieve \textbf{20x} speedup
+\end{itemize}
+
+\divider
 
 \cvevent{VM}{CS246E: Objected Oriented Programming (Advanced)}{November 2018}{\href{https://github.com/felix990302/vm}{github.com/felix990302/vm}}
 \begin{itemize}
@@ -105,24 +121,6 @@
 \textit{Inspired by Silicon Valley Season 4 Episode 4}
 
 \divider
-
-\cvevent{NNLib}{}{April 2018 -- September 2018}{\href{https://github.com/felix990302/nnlib}{github.com/felix990302/nnlib}}
-\begin{itemize}
-    \item Created a light-weight Neural Network library with only \textbf{NumPy} as dependency
-    \item Featured \textbf{L1, L2 Regularization} and \textbf{Dropout} to combat variance
-    \item Implemented \textbf{Back-Substitution} and \textbf{Gradient Descent} through Chain Rule
-    \item Abided by \textbf{PyPI} package structure and conventions including a full \textbf{pytest} suite to improve compatibility with other Python packages
-\end{itemize}
-
-\divider
-
-\cvevent{Faustin}{YHacks}{December 2017}{\href{https://github.com/tangsaidi/YHack}{github.com.tagsaidi/YHack}}
-\begin{itemize}
-    \item Provided real-time suggestions in reaction to emotions in vocal input
-    \item Combined a \textbf{Deep Neural Network}, \textbf{IBM Watson} and \textbf{Volkaturi API} to analyze tonality and semantics to detect outliers due to factors such as sarcasm
-    \item Classified speech in one of five emotional classes with \textbf{80\% Accuracy}
-    \item Launched the application via \textbf{AWS} on a \textbf{CentOS} server
-\end{itemize}
 
 
 \end{document}
