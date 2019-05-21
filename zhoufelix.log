@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.2.1)  11 MAY 2019 18:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.2.1)  20 MAY 2019 19:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1484,10 +1484,10 @@ LaTeX Font Warning: Font shape `OMS/lato-TLF/m/n' undefined
 
 )
 LaTeX Font Info:    Font shape `T1/lato-TLF/bx/n' in size <9> not available
-(Font)              Font shape `T1/lato-TLF/b/n' tried instead on input line 86
+(Font)              Font shape `T1/lato-TLF/b/n' tried instead on input line 81
 .
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 9.0pt on input line 86.
+(Font)              scaled to size 9.0pt on input line 81.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/it' will be
 (Font)              scaled to size 9.0pt on input line 107.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/it' will be
@@ -1527,7 +1527,7 @@ sr/local/texlive/2018/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc
 b></usr/local/texlive/2018/texmf-dist/fonts/type1/typoland/lato/Lato-Italic.pfb
 ></usr/local/texlive/2018/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb
 ></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on zhoufelix.pdf (1 page, 149219 bytes).
+Output written on zhoufelix.pdf (1 page, 148948 bytes).
 PDF statistics:
  47 PDF objects out of 1000 (max. 8388607)
  38 compressed objects within 1 object stream
