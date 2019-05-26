@@ -78,25 +78,25 @@
 
 \cvevent{IOT Developer Intern}{California Things}{May 2019 -- Present}{Redwood City, CA}
 \begin{itemize}
-    \item Implemented a read-write lock for \textbf{mongodb} using an asynchronous client-server architecture in both \textbf{Swift} and \textbf{C} with a \textbf{Python} interface
+    \item Implemented a multi-client read-write lock for \textbf{mongodb} using asynchronous networking in both \textbf{Swift} and \textbf{C} with a \textbf{Python} interface to prevent data races
+    \item (unable to disclose further details due to a signed NDA)
 \end{itemize}
+
+\divider
 
 \cvevent{Software Engineering Intern}{Encircle Inc.}{April 2018 -- August 2018}{Kitchener, ON}
 \begin{itemize}
-    \item Developed features in \textbf{Tornado} and \textbf{React} to improve Encircle's web app
     \item Introduced \textbf{WebSockets} and \textbf{Observables} to load and update data asynchonously in real-time, improving efficiency by \textbf{5x}
     \item Implemented email feature to send reports through \textbf{Model-Daemon Method}, removing need to exit app in user workflow
-    \item Improved user experience with \textbf{functional} React Components, reducing re-rendering for smoother user experience 
+    \item Improved user experience with \textbf{functional React} Components, reducing re-rendering for smoother user experience 
 \end{itemize}
 
 \cvsection{Projects}
 
 \cvevent{Pleter}{}{May 2019}{\href{https://github.com/felix990302/word\_completion}{github.com/felix990302/word\_completion}}
 \begin{itemize}
-    \item Designed a thread safe autocompletion engine with a dynamic dictionary
-    \item Implemented using a variation of \textbf{range trees} consisting of a \textbf{compressed trie} and sorted arrays in \textbf{C++}
-    \item accounted for race conditions and deadlocks using read and write lock hierarchies
-    \item Provided a complete Python interface using \textbf{pybind11}
+    \item Designed a concurrent autocompletion engine using a variation of \textbf{range trees} consisting of a \textbf{compressed trie} and sorted arrays in \textbf{C++}
+    \item accounted for race conditions and deadlocks using fine-grained read-write lock hierarchies
     \item Incorporated \textbf{gprof} as profiler for optimizations including a static \textbf{fixed-size allocator} to achieve \textbf{20x} speedup
 \end{itemize}
 
