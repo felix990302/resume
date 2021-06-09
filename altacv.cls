@@ -157,8 +157,8 @@
     \raggedright\color{emphasis}%
     {\fontsize{40}{70}\bfseries\MakeUppercase{\@name}\par}
     \medskip
-    {\large\bfseries\color{accent}\@tagline\hphantom{l}}{\normalsize\bfseries\color{body}\@purpose\par}
-    \bigskip
+    %{\large\bfseries\color{accent}\@tagline\hphantom{l}}{\normalsize\bfseries\color{body}\@purpose\par}
+    %\bigskip
     {\footnotesize\bfseries\@personalinfo\par}
     \ifdef{\@photodiameter}{%
     \end{minipage}\hfill%

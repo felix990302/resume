@@ -55,12 +55,12 @@
 
 \begin{document}
 \name{Felix Zhou}
-\tagline{Mathemagician \& Engineer}{analyzing, transforming, and organizing structured and unstructured data}
+\tagline{}{}
 \personalinfo{%
   % You can add your own with \printinfo{symbol}{detail}
     \email{changfengzhou990302@gmail.com}
     \phone{226-898-5226}
-    \homepage{\href{http://felixzhou.tech}{felixzhou.tech}}
+    \homepage{\href{https://student.cs.uwaterloo.ca/~cfzhou}{uwaterloo.ca/\textasciitilde{}cfzhou}}
     \linkedin{\href{https://www.linkedin.com/in/felix-zhou}{felix-zhou}}
     \github{\href{https://www.github.com/felix990302}{felix990302}}
 }
@@ -75,13 +75,23 @@
 
 
 \cvsection[page1sidebar]{Experience}
-\cvevent{Undergraduate Research Assistant}{University of Waterloo}{August 2020 -- Present}{Waterloo, ON}
+\cvevent{Undergraduate Research Assistant}{University of Waterloo}{May 2020 -- Present}{Vancouver, BC}
 \begin{itemize}
-    \item Designed a \textbf{scheduling algorithm} to allocate office time
+    \item Researched \textbf{approximation algorithm} frameworks for a variety of NP-hard problems
+      by employing novel \textbf{linear programming rounding} techniques
+    \item Designed the \textbf{first} efficient constant approximation algorithm
+      for the \textbf{minimum norm matroid median} problem
+\end{itemize}
+
+\divider
+
+\cvevent{Undergraduate Research Assistant}{University of Waterloo}{August 2020 -- April 2020}{Waterloo, ON}
+\begin{itemize}
+    \item Designed a \textbf{scheduling algorithm} to optimally allocate office time
       based on \textbf{3-dimensional matchings} while leveraging \textbf{integer programming} through \textbf{Gurobi}
-    \item Researches computational complexity of solution concepts such as the nucleolus
+    \item Produced novel results on the computational complexity of nucleolus
       within \textbf{cooperative $b$-matching games}
-    \item Presented recent results in \textbf{computational game theory} during weekly readings
+    \item Presented recent breakthroughs in \textbf{computational game theory} during weekly readings
 \end{itemize}
 
 \divider
@@ -108,7 +118,7 @@
 \end{itemize}
 
 \cvsection{Projects}
-
+\iffalse
 \cvevent{Pleter}{}{May 2019}{\href{https://github.com/felix990302/word\_completion}{github.com/felix990302/word\_completion}}
 \begin{itemize}
     \item Designed a concurrent autocompletion engine using a variation of \textbf{range trees} consisting of a \textbf{compressed trie} and sorted arrays in \textbf{C++}
@@ -117,10 +127,10 @@
 \end{itemize}
 
 \divider
-
+\fi
 \cvevent{VM}{CS246E: Objected Oriented Programming (Advanced)}{November 2018}{\href{https://github.com/felix990302/vm}{github.com/felix990302/vm}}
 \begin{itemize}
-    \item Actualized a \textbf{C++14} clone of the command-line text editor \textit{vim}
+    \item Actualized a \textbf{C++14} clone of the command-line text editor \emph{vim} from scratch
     \item Followed \textbf{Object-Oriented Principles} and \textbf{Design Patterns} like \textbf{Decorator} and \textbf{Visitor} to produce modular and extensible code
     \item Implemented undos and redos through the \textbf{Command} pattern to minimize space complexity
 \end{itemize}
