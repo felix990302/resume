@@ -16,7 +16,7 @@
 \usepackage{hyperref}
 
 % Change the page layout if you need to
-\geometry{left=1cm,right=9cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1.25cm,bottom=1.25cm}
+\geometry{left=1cm,right=9cm,marginparwidth=6.8cm,marginparsep=1cm,top=1cm,bottom=1.25cm}
 
 % Change the font if you want to, depending on whether
 % you're using pdflatex or xelatex/lualatex
@@ -60,27 +60,27 @@
   % You can add your own with \printinfo{symbol}{detail}
     \email{changfengzhou990302@gmail.com}
     %\phone{226-898-5226}
-    \homepage{\href{https://student.cs.uwaterloo.ca/~cfzhou}{uwaterloo.ca/\textasciitilde{}cfzhou}}
+    \homepage{\href{https://student.cs.uwaterloo.ca/~cfzhou}{\textasciitilde{}cfzhou}}
     \linkedin{\href{https://www.linkedin.com/in/felix-zhou}{felix-zhou}}
     \github{\href{https://www.github.com/felix990302}{felix990302}}
 }
 
 %% Make the header extend all the way to the right, if you want.
-\begin{fullwidth}
-    \makecvheader
-\end{fullwidth}
+%\begin{fullwidth}
+  \makecvheader
+%\end{fullwidth}
 
 %% Depending on your tastes, you may want to make fonts of itemize environments slightly smaller
 \AtBeginEnvironment{itemize}{\small}
 
 
 \cvsection[page1sidebar]{Experience}
-\cvevent{Undergraduate Research Assistant}{University of Waterloo}{May 2021 -- August 2021}{Vancouver, BC}
+\cvevent{Undergraduate Research Assistant}{University of Waterloo}{May 2021 -- August 2021}{Waterloo, ON}
 \begin{itemize}
     \item Researched \textbf{approximation algorithm} frameworks for a variety of NP-hard problems
       by employing novel \textbf{linear programming rounding} techniques
     \item Explored the \textbf{minimum norm matroid median} problem
-      which generalizes the $k$-means and $k$-centre problems
+      which generalizes the $k$-medians and $k$-centre problems
 \end{itemize}
 
 \divider
@@ -88,10 +88,11 @@
 \cvevent{Undergraduate Research Assistant}{University of Waterloo}{August 2020 -- April 2021}{Waterloo, ON}
 \begin{itemize}
     \item Designed a \textbf{scheduling algorithm} to optimally allocate office time
-      based on \textbf{3-dimensional matchings} while leveraging \textbf{integer programming} through \textbf{Gurobi}
+      through \textbf{3-dimensional matchings} modelled by \textbf{integer programming} with \textbf{Gurobi}
     \item Produced novel results on the computational complexity of nucleolus
       within \textbf{cooperative $b$-matching games}
-    \item Presented recent breakthroughs in \textbf{computational game theory} during weekly readings
+      (manuscript under review)
+    \item Presented results in \textbf{computational game theory} during weekly readings
 \end{itemize}
 
 \divider
@@ -111,10 +112,10 @@
 
 \cvevent{IOT Engineering Intern}{Level Home Inc.}{May 2019 -- December 2019}{Redwood City, CA}
 \begin{itemize}
-    \item Designed and implemented backend features to support an invisible \textbf{smart lock} system,
-        allowing users to remotely control entrance to doors without affecting aesthetics of their home
-    \item Lead an engineering team in implementing a multiclient read-write lock for \textbf{mongodb} using asynchronous networking in both \textbf{Swift} and \textbf{C} with a \textbf{Python} interface to prevent data races
-    \item Leveraged \textbf{Elliptic Curve Cryptography} and \textbf{Stream Cyphers} to ensure client data security
+    \item Designed and implemented backend features for an invisible \textbf{smart lock} system,
+        allowing users to remotely unlock doors without sacrificing aesthetics
+    \item Lead the implemention of a network semaphore for \textbf{mongodb} using asynchronous networking in both \textbf{Swift} and \textbf{C} to prevent data races
+    \item Leveraged \textbf{elliptic curve cryptography} and \textbf{stream cyphers} to ensure client data security against adversarial attacks
 \end{itemize}
 
 \cvsection{Projects}

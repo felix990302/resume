@@ -153,7 +153,9 @@
 
 \newcommand{\makecvheader}{%
   \begingroup
-    \ifdef{\@photodiameter}{\begin{minipage}{\dimexpr\linewidth-\@photodiameter-2em}}{}%
+    \ifdef{\@photodiameter}{
+      %\begin{minipage}
+      {\dimexpr\linewidth-\@photodiameter-2em}}{}%
     \raggedright\color{emphasis}%
     {\fontsize{40}{70}\bfseries\MakeUppercase{\@name}\par}
     \medskip
@@ -168,7 +170,8 @@
     \else
       \tikz\path[fill overzoom image={\@photo}]circle[radius=0.5\linewidth];
     \fi%
-    \end{minipage}\par}{}%
+    %\end{minipage}
+  \par}{}%
   \endgroup\smallskip
 }
 
