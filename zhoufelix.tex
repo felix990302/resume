@@ -1,4 +1,4 @@
-%% If you are using \orcid or academicons
+%%% If you are using \orcid or academicons
 %% icons, make sure you have the academicons
 %% option here, and compile with XeLaTeX
 %% or LuaLaTeX.
@@ -13,10 +13,13 @@
 %% and packages.
 %% See texdoc.net/pkg/fontawecome and http://texdoc.net/pkg/academicons for full list of symbols. You MUST compile with XeLaTeX or LuaLaTeX if you want to use academicons.
 
+\usepackage{paracol}
 \usepackage{hyperref}
 
+\columnratio{0.6}
+
 % Change the page layout if you need to
-\geometry{left=1cm,right=9cm,marginparwidth=6.8cm,marginparsep=1cm,top=1cm,bottom=1.25cm}
+\geometry{left=1cm,right=1cm,top=1cm,bottom=1cm,columnsep=1cm}
 
 % Change the font if you want to, depending on whether
 % you're using pdflatex or xelatex/lualatex
@@ -51,34 +54,37 @@
 \renewcommand{\ratingmarker}{\faCircle}
 
 %% sample.bib contains your publications
-\addbibresource{sample.bib}
+%\addbibresource{sample.bib}
 
 \begin{document}
 \name{Felix Zhou}
 \tagline{}{}
 \personalinfo{%
   % You can add your own with \printinfo{symbol}{detail}
-    \email{changfengzhou990302@gmail.com}
     %\phone{226-898-5226}
     \homepage{\href{https://student.cs.uwaterloo.ca/~cfzhou}{\textasciitilde{}cfzhou}}
-    \linkedin{\href{https://www.linkedin.com/in/felix-zhou}{felix-zhou}}
     \github{\href{https://www.github.com/felix990302}{felix990302}}
+    \email{changfengzhou990302@gmail.com}
+    \linkedin{\href{https://www.linkedin.com/in/felix-zhou}{felix-zhou}}
+    \orcid{\href{https://orcid.org/0000-0003-4327-0492}{0000-0003-4327-0492}}
 }
 
 %% Make the header extend all the way to the right, if you want.
 %\begin{fullwidth}
-  \makecvheader
 %\end{fullwidth}
 
 %% Depending on your tastes, you may want to make fonts of itemize environments slightly smaller
-\AtBeginEnvironment{itemize}{\small}
+%\AtBeginEnvironment{itemize}{\small}
+%
 
+\begin{paracol}{2}
+\makecvheader
 
-\cvsection[page1sidebar]{Experience}
+\cvsection{Experience}
 \cvevent{Undergraduate Research Assistant}{University of Waterloo}{May 2021 -- August 2021}{Waterloo, ON}
 \begin{itemize}
-    \item Researched \textbf{approximation algorithm} frameworks for a variety of NP-hard problems
-      by employing novel \textbf{linear programming rounding} techniques
+    \item Researched \textbf{approximation algorithm} frameworks for NP-hard problems
+      by employing novel \textbf{linear programming rounding} methods
     \item Explored the \textbf{minimum norm matroid median} problem
       which generalizes the $k$-medians and $k$-centre problems
 \end{itemize}
@@ -87,12 +93,12 @@
 
 \cvevent{Undergraduate Research Assistant}{University of Waterloo}{August 2020 -- April 2021}{Waterloo, ON}
 \begin{itemize}
-    \item Designed a \textbf{scheduling algorithm} to optimally allocate office time
-      through \textbf{3-dimensional matchings} modelled by \textbf{integer programming} with \textbf{Gurobi}
+    \item Designed a \textbf{scheduling algorithm} to optimally allocate office time under social distancing constraints
+      based on \textbf{3-dimensional matchings} modelled with \textbf{integer programming} through \textbf{Gurobi}
     \item Produced novel results on the computational complexity of nucleolus
       within \textbf{cooperative $b$-matching games}
       (manuscript under review)
-    \item Presented results in \textbf{computational game theory} during weekly readings
+    \item Presented \textbf{computational game theory} papers in weekly readings
 \end{itemize}
 
 \divider
@@ -101,18 +107,18 @@
 \begin{itemize}
     \item Improved a \textbf{distributed graph algorithm} which pinpoints build breaking commits,
       reducing bug-finding time by to 50\%
-    \item Created a generalized \textbf{validation framework} in \textbf{C++} to evaluate improvements
-      through statistical methods like \textbf{cross entropy, rank probability score}, and \textbf{$\ell$-p norms},
+    \item Created a generalized \textbf{validation framework} in \textbf{C++}
+      based on statistical methods like \textbf{cross entropy, rank probability score}, and \textbf{$\ell$-p norms},
       quantifying the performance of breakage finding services
-    \item Implemented an efficient data pipeline through \textbf{BigQuery} and \textbf{MapReduce}
-      which supports the evaluation framework using automated testing data
+    \item Implemented a data pipeline using \textbf{BigQuery} and \textbf{MapReduce}
+      which supports the evaluation framework with automated testing data
 \end{itemize}
 
 \divider
 
 \cvevent{IOT Engineering Intern}{Level Home Inc.}{May 2019 -- December 2019}{Redwood City, CA}
 \begin{itemize}
-    \item Designed and implemented backend features for an invisible \textbf{smart lock} system,
+    \item Built backend features for an discreet \textbf{smart lock} system,
         allowing users to remotely unlock doors without sacrificing aesthetics
     \item Lead the implemention of a network semaphore for \textbf{mongodb} using asynchronous networking in both \textbf{Swift} and \textbf{C} to prevent data races
     \item Leveraged \textbf{elliptic curve cryptography} and \textbf{stream cyphers} to ensure client data security against adversarial attacks
@@ -131,10 +137,92 @@
 \fi
 \cvevent{VM}{CS246E: Objected Oriented Programming (Advanced)}{November 2018}{\href{https://github.com/felix990302/vm}{github.com/felix990302/vm}}
 \begin{itemize}
-    \item Actualized a \textbf{C++14} clone of the command line text editor \emph{vim} from scratch
+    \item Actualized a \textbf{C++14} clone of the text editor \emph{vim} from scratch
     \item Followed \textbf{Object Oriented Principles} and \textbf{Design Patterns} like \textbf{Decorator} and \textbf{Visitor} to produce modular and extensible code
     \item Implemented undos and redos through the \textbf{Command} pattern to minimize space complexity
 \end{itemize}
+
+\switchcolumn
+
+\cvsection{Proficiencies}
+C, C++, Python 3
+
+\smallskip
+
+\LaTeX, MATLAB, Gurobi
+
+\divider\smallskip
+
+Git, MapReduce, MongoDB
+
+\cvsection{Education}
+\cvevent{Honours Bachelor of Mathematics}{University of Waterloo}{Sept 2017 -- August 2022}{}
+Double Major in Computer Science\\
+and Combinatorics \& Optimization
+
+\smallskip
+
+Minor in Pure Mathematics
+
+\smallskip
+
+94\% Average
+
+\cvsection{Publications}
+\href{https://arxiv.org/abs/2105.07161}{``On the Complexity of Nucleolus Computation for Bipartite b-Matching Games''}.
+\emph{Under Review}
+
+\cvsection{Coursework}
+Probability, Statistics
+
+\smallskip
+
+Real Analysis, Linear Algebra 2, Graph Theory
+
+\smallskip
+
+Lebesgue Integration \& Fourier Analysis
+
+\divider\smallskip
+
+Algorithm Design, Graph-Theoretic Algorithms
+
+
+\smallskip
+
+Combinatorial Optimization
+
+\smallskip
+
+Semidefinite and Convex Optimization
+
+
+\cvsection{Achievements}
+\cvevent{Mathematics Undergraduate Research Award}{University of Waterloo}{May 2021}{}
+for excellent academic performance and research capabilities
+
+\divider\smallskip
+
+\cvevent{Howard and Marita Boyd Scholarship}{University of Waterloo}{January 2021}{}
+for academic excellence and demonstrated commitment to volunteerism
+
+\divider\smallskip
+
+\cvevent{Undergraduate Student Research Award}{NSERC}{September 2020}{}
+for excellent academic record and research aptitude
+
+\divider\smallskip
+
+\cvevent{President's Research Award}{University of Waterloo}{September 2020}{}
+
+\iffalse
+\divider\smallskip
+
+\cvevent{President's Scholarship of Distinction}{University of Waterloo}{September 2017}{}
+for entrance average above 95\%
+\fi
+
+\end{paracol}
 
 
 \end{document}
