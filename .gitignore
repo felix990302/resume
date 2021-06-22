@@ -6,3 +6,5 @@
 *.blg
 *.out
 *.run.xml
+
+.DS_STORE

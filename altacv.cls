@@ -127,7 +127,7 @@
 \faStyle{regular}
 \newcommand{\emailsymbol}{\faAt}
 \newcommand{\phonesymbol}{\faPhone}
-\newcommand{\homepagesymbol}{\faGlobe}
+\newcommand{\homepagesymbol}{\faExternalLink*}
 \newcommand{\locationsymbol}{\faMapMarker}
 \newcommand{\linkedinsymbol}{\faLinkedin}
 \newcommand{\twittersymbol}{\faTwitter}
