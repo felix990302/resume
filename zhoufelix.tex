@@ -7,7 +7,7 @@
 %% Use the "normalphoto" option if you want a normal photo instead of cropped to a circle
 % \documentclass[10pt,a4paper,normalphoto]{altacv}
 
-\documentclass[11pt,a4paper,ragged2e]{altacv}
+\documentclass[11pt,a4paper]{altacv}
 
 %% AltaCV uses the fontawesome and academicon fonts
 %% and packages.
@@ -89,7 +89,7 @@
       which generalizes the $k$-medians and $k$-center problems
 \end{itemize}
 
-\divider
+\divider % less spacing?
 
 \cvevent{Undergraduate Research Assistant}{University of Waterloo}{August 2020 -- April 2021}{Waterloo, ON}
 \begin{itemize}
@@ -106,10 +106,10 @@
 \cvevent{Software Engineering Intern}{Google LLC}{Jan 2020 -- April 2020}{Mountain View, CA}
 \begin{itemize}
     \item Improved a \textbf{distributed graph algorithm} which pinpoints build breaking commits,
-      reducing debug time by to \textbf{50\%}
-    \item Created a generalized \textbf{validation framework} in \textbf{C++}
-      to quantify the performance of bug finding services
-      with statistical methods like \textbf{cross entropy, rank probability score}
+      reducing debug time by \textbf{50\%}
+    \item Created a \textbf{validation framework} in \textbf{C++}
+      to quantify the performance of bug-finding services
+      with statistical methods such as \textbf{cross entropy} and \textbf{rank probability score}
     \item Implemented a data pipeline using \textbf{BigQuery} and \textbf{MapReduce}
       to support the framework with testing data
 \end{itemize}
@@ -118,8 +118,7 @@
 
 \cvevent{IOT Engineering Intern}{Level Home Inc.}{May 2019 -- December 2019}{Redwood City, CA}
 \begin{itemize}
-    \item Built backend features for a discreet \textbf{smart lock},
-      allowing users to remotely unlock doors without affecting aesthetics
+    \item Built backend features for a discreet \textbf{smart lock} system
     \item Lead the creation of a \textbf{MongoDB} network semaphore with asynchronous networking in \textbf{Swift}
       to prevent data races
     %\item Leveraged \textbf{elliptic curve cryptography} and \textbf{stream ciphers} to ensure client data security against adversarial attacks
@@ -141,27 +140,30 @@
 \hfill\href{https://github.com/felix990302/vm}{\faExternalLink* github.com/felix990302/vm}
 \smallskip
 \begin{itemize}
-    \item Created a \textbf{C++14} clone of the text editor \emph{vim} from scratch
-    \item Followed \textbf{Object Oriented Principles} and \textbf{Design Patterns} like \textbf{Decorator} and \textbf{Visitor} for modular and extensible code
+    \item Re-implemented the text editor \emph{Vim} from scratch in \textbf{C++14}
+    \item Followed \textbf{Object-Oriented Principles} and \textbf{Design Patterns} like \textbf{Decorator} and \textbf{Visitor} for modular and extensible code
     %\item Implemented undos and redos through the \textbf{Command} pattern to minimize space complexity
 \end{itemize}
 
 \switchcolumn
 
-\cvsection{Proficiencies}
-C, C++, Python 3
+\cvsection{Skills}
+C, C++, Python, MATLAB, Scheme, \LaTeX,
 
 \smallskip
 
-\LaTeX, MATLAB, Gurobi
+MapReduce, Gurobi, *nix, Shell, Git
 
-\divider\smallskip
+\cvsection{Research}
+\begin{itemize}
+  \item Approximation Algorithms
+  \item Computational Game Theory
+\end{itemize}
 
-Approximation Algorithms
+\href{https://arxiv.org/abs/2105.07161}{\faExternalLink* ``On the Complexity of Nucleolus Computation for Bipartite b-Matching Games''}.
+\emph{Submitted for Review}
 
-\smallskip
-
-Computational Game Theory
+% Interest? Topics of Interest?
 
 \cvsection{Education}
 \cvevent{Honours Bachelor of Mathematics}{University of Waterloo}{Sept 2017 -- August 2022}{}
@@ -174,34 +176,20 @@ Minor in Pure Mathematics
 
 \smallskip
 
-94\% Average
-
-\cvsection{Publications}
-\href{https://arxiv.org/abs/2105.07161}{\faExternalLink* ``On the Complexity of Nucleolus Computation for Bipartite b-Matching Games''}.
-\emph{Submitted for Review}
+\textbf{94\% Faculty Average}
 
 \cvsection{Coursework}
-Probability, Statistics, Graph Theory
+Algebraic Graph Theory,
 
-\smallskip
+Measure Theory, Functional Analysis,
 
-Real Analysis, Linear Algebra 2
+Quantum Information Theory,
 
-\smallskip
+Advanced Algorithm Design,
 
-Lebesgue Integration \& Fourier Analysis
+Combinatorial Optimization,
 
-\divider\smallskip
-
-Advanced Algorithm Design
-
-\smallskip
-
-Combinatorial Optimization
-
-\smallskip
-
-Semidefinite and Convex Optimization
+Semidefinite \& Convex Optimization
 
 
 \cvsection{Achievements}
@@ -216,13 +204,13 @@ for exceptional research aptitude
 \divider\smallskip
 
 \cvevent{Howard and Marita Boyd Scholarship (\$1500)}{}{September 2020}{}
-for academic excellence and demonstrated commitment to volunteerism
+for academic excellence and commitment to volunteerism
 
-\iffalse
 \divider\smallskip
 
 \cvevent{President's Research Award (\$1500)}{}{September 2020}{}
 
+\iffalse
 \divider\smallskip
 
 \cvevent{President's Scholarship of Distinction}{University of Waterloo}{September 2017}{}
